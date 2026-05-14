@@ -1,0 +1,58 @@
+# Local output and exported evidence
+*.log
+*.tmp
+*.bak
+*.old
+*.csv
+*.tsv
+*.xlsx
+*.pdf
+exports/
+output/
+reports/
+evidence/
+screenshots/
+
+# PowerShell
+*.ps1xml
+*.pssc
+*.psrc
+*.clixml
+Transcript*.txt
+PowerShell_transcript*.txt
+
+# Local secrets and tenant-specific config
+.env
+.env.*
+*.secret.*
+*.key
+*.pem
+*.pfx
+*.cer
+local.settings.json
+appsettings.Development.json
+
+# Terraform or infra experiments
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Package/cache folders that may appear during tooling experiments
+node_modules/
+.npm/
+.pnpm-store/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
