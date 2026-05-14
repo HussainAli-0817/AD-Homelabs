@@ -6,18 +6,34 @@ This monorepo is a hands-on portfolio for help desk, desktop support, and junior
 
 | Area | Purpose |
 | --- | --- |
-| `docs/` | Environment notes, role map, and runbook guidance |
+| `docs/` | Environment notes, role map, repo audit, and one-week roadmap |
 | `labs/active-directory/` | AD DS labs for users, groups, passwords, and access |
 | `labs/entra-id/` | Entra ID labs for MFA, licenses, groups, and cloud identity |
+| `projects/` | Recruiter-friendly project case studies transferred from prior repos |
 | `scripts/powershell/` | Reusable PowerShell helpers for AD and Microsoft Graph |
 | `tickets/` | Help desk ticket scenarios and completed examples |
 | `templates/` | Repeatable templates for tickets, KBs, and lab reports |
 | `assets/resume/` | Current resume for recruiters and hiring managers |
-| `legacy/active-directory-lab/` | Imported previous Active Directory Asia region portfolio lab |
 
 ## Resume
 
 Download the current resume: [Hussain_Ali_Resume.pdf](assets/resume/Hussain_Ali_Resume.pdf)
+
+## Portfolio Cases
+
+| Case | Role Signal | Evidence |
+| --- | --- | --- |
+| [Active Directory Regional Structure](projects/ad-asia-region/) | AD organization, OUs, users, computers, servers, groups | ADUC screenshots and environment explanation |
+| [Help Desk AD Fundamentals](projects/help-desk-ad-fundamentals/) | User creation, password reset, help desk AD basics | OU, user creation, and reset screenshots |
+| [Network And Cloud Support Foundations](projects/network-cloud-foundations/) | Networking, AWS VPC basics, connectivity troubleshooting | VPC, subnet, route, security group, NACL, EC2 screenshots |
+
+See the full project index: [projects/README.md](projects/README.md)
+
+## Job Readiness Roadmap
+
+Use [docs/one-week-job-readiness-plan.md](docs/one-week-job-readiness-plan.md) as the sprint plan for becoming more hireable for help desk, desktop support, junior IAM, Entra ID, and Microsoft 365 support roles.
+
+The main portfolio gap is no longer project ideas. The gap is completed proof. The next goal is to create 5 resolved support cases with before/after evidence and clean ticket notes.
 
 ## Suggested Lab Environment
 
@@ -36,10 +52,6 @@ Download the current resume: [Hussain_Ali_Resume.pdf](assets/resume/Hussain_Ali_
 4. **Entra ID basics:** inspect cloud users, group membership, licenses, and MFA state.
 5. **Ticket quality:** write concise notes, evidence, resolution steps, and user-facing closure messages.
 6. **Portfolio documentation:** preserve visual AD design work and connect it to ticket-based operations.
-
-## Imported Portfolio Lab
-
-The previous Active Directory homelab is included at [legacy/active-directory-lab/](legacy/active-directory-lab/). It documents an Asia region AD structure with OU, user, computer, server, and group-management screenshots.
 
 ## Portfolio Workflow
 
