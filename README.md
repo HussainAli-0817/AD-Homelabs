@@ -12,7 +12,12 @@ This monorepo is a hands-on portfolio for help desk, desktop support, and junior
 | `scripts/powershell/` | Reusable PowerShell helpers for AD and Microsoft Graph |
 | `tickets/` | Help desk ticket scenarios and completed examples |
 | `templates/` | Repeatable templates for tickets, KBs, and lab reports |
+| `assets/resume/` | Current resume for recruiters and hiring managers |
 | `legacy/active-directory-lab/` | Imported previous Active Directory Asia region portfolio lab |
+
+## Resume
+
+Download the current resume: [Hussain_Ali_Resume.pdf](assets/resume/Hussain_Ali_Resume.pdf)
 
 ## Suggested Lab Environment
 
