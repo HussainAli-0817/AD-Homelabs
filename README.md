@@ -12,6 +12,7 @@ This monorepo is a hands-on portfolio for help desk, desktop support, and junior
 | `scripts/powershell/` | Reusable PowerShell helpers for AD and Microsoft Graph |
 | `tickets/` | Help desk ticket scenarios and completed examples |
 | `templates/` | Repeatable templates for tickets, KBs, and lab reports |
+| `legacy/active-directory-lab/` | Imported previous Active Directory Asia region portfolio lab |
 
 ## Suggested Lab Environment
 
@@ -29,6 +30,11 @@ This monorepo is a hands-on portfolio for help desk, desktop support, and junior
 3. **Access requests:** add and remove users from security groups with approval notes.
 4. **Entra ID basics:** inspect cloud users, group membership, licenses, and MFA state.
 5. **Ticket quality:** write concise notes, evidence, resolution steps, and user-facing closure messages.
+6. **Portfolio documentation:** preserve visual AD design work and connect it to ticket-based operations.
+
+## Imported Portfolio Lab
+
+The previous Active Directory homelab is included at [legacy/active-directory-lab/](legacy/active-directory-lab/). It documents an Asia region AD structure with OU, user, computer, server, and group-management screenshots.
 
 ## Portfolio Workflow
 
@@ -46,4 +52,3 @@ For each lab:
 - Do not run destructive commands in a production tenant or domain.
 - Review every script before execution.
 - Prefer least privilege and document approvals for access changes.
-
